@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE4E2B5A2BECF76C00C4AA77 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE4E2B592BECF76C00C4AA77 /* music.mp3 */; };
+		EE4E2B5C2BECF78C00C4AA77 /* bonus_menu_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE4E2B5B2BECF78C00C4AA77 /* bonus_menu_music.mp3 */; };
+		EE4E2B5E2BECF79100C4AA77 /* bonus_menu_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE4E2B5D2BECF79100C4AA77 /* bonus_menu_sound.mp3 */; };
+		EE4E2B602BECF7A700C4AA77 /* loss_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE4E2B5F2BECF7A700C4AA77 /* loss_sound.mp3 */; };
 		EE543FC72BEA76BB006DB260 /* Avia_BlitzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FC62BEA76BB006DB260 /* Avia_BlitzApp.swift */; };
 		EE543FC92BEA76BB006DB260 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FC82BEA76BB006DB260 /* ContentView.swift */; };
 		EE543FCB2BEA76BE006DB260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE543FCA2BEA76BE006DB260 /* Assets.xcassets */; };
 		EE543FCE2BEA76BE006DB260 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE543FCD2BEA76BE006DB260 /* Preview Assets.xcassets */; };
+		EE543FDA2BEAA234006DB260 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FD92BEAA234006DB260 /* GameView.swift */; };
+		EE543FDC2BEAA254006DB260 /* GarageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FDB2BEAA254006DB260 /* GarageView.swift */; };
+		EE543FDE2BEAB1C0006DB260 /* GarageShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FDD2BEAB1C0006DB260 /* GarageShopView.swift */; };
+		EE543FE02BEAB200006DB260 /* Acme-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE543FDF2BEAB200006DB260 /* Acme-Regular.ttf */; };
+		EE543FE42BEAC323006DB260 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FE32BEAC323006DB260 /* PlayerData.swift */; };
+		EE543FE62BEAC3C7006DB260 /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FE52BEAC3C7006DB260 /* ShopData.swift */; };
+		EE543FE82BEAC5FC006DB260 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543FE72BEAC5FC006DB260 /* ShopItem.swift */; };
+		EE5440052BEBDE8F006DB260 /* BonusGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440042BEBDE8F006DB260 /* BonusGameView.swift */; };
+		EE5440082BEBF24C006DB260 /* PlaneGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440072BEBF24C006DB260 /* PlaneGameScene.swift */; };
+		EE54400C2BECD9A4006DB260 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE54400A2BECD9A4006DB260 /* Explosion.sks */; };
+		EE54400D2BECD9A4006DB260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE54400B2BECD9A4006DB260 /* Assets.xcassets */; };
+		EE54400F2BECDB58006DB260 /* BoosterFieldNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54400E2BECDB58006DB260 /* BoosterFieldNode.swift */; };
+		EE5440112BECDB61006DB260 /* GamePauseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440102BECDB61006DB260 /* GamePauseNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE4E2B592BECF76C00C4AA77 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		EE4E2B5B2BECF78C00C4AA77 /* bonus_menu_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonus_menu_music.mp3; sourceTree = "<group>"; };
+		EE4E2B5D2BECF79100C4AA77 /* bonus_menu_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonus_menu_sound.mp3; sourceTree = "<group>"; };
+		EE4E2B5F2BECF7A700C4AA77 /* loss_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loss_sound.mp3; sourceTree = "<group>"; };
 		EE543FC32BEA76BB006DB260 /* Avia Blitz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avia Blitz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE543FC62BEA76BB006DB260 /* Avia_BlitzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avia_BlitzApp.swift; sourceTree = "<group>"; };
 		EE543FC82BEA76BB006DB260 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE543FCA2BEA76BE006DB260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE543FCD2BEA76BE006DB260 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE543FD92BEAA234006DB260 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EE543FDB2BEAA254006DB260 /* GarageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageView.swift; sourceTree = "<group>"; };
+		EE543FDD2BEAB1C0006DB260 /* GarageShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageShopView.swift; sourceTree = "<group>"; };
+		EE543FDF2BEAB200006DB260 /* Acme-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Acme-Regular.ttf"; sourceTree = "<group>"; };
+		EE543FE12BEAB211006DB260 /* Avia-Blitz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Avia-Blitz-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE543FE32BEAC323006DB260 /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		EE543FE52BEAC3C7006DB260 /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
+		EE543FE72BEAC5FC006DB260 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		EE5440042BEBDE8F006DB260 /* BonusGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusGameView.swift; sourceTree = "<group>"; };
+		EE5440072BEBF24C006DB260 /* PlaneGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneGameScene.swift; sourceTree = "<group>"; };
+		EE54400A2BECD9A4006DB260 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		EE54400B2BECD9A4006DB260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE54400E2BECDB58006DB260 /* BoosterFieldNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoosterFieldNode.swift; sourceTree = "<group>"; };
+		EE5440102BECDB61006DB260 /* GamePauseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +86,17 @@
 		EE543FC52BEA76BB006DB260 /* Avia Blitz */ = {
 			isa = PBXGroup;
 			children = (
+				EE5440122BECF55C006DB260 /* Audio */,
+				EE5440092BECD98A006DB260 /* Particles */,
+				EE543FE22BEAC315006DB260 /* GameOptions */,
+				EE543FE12BEAB211006DB260 /* Avia-Blitz-Info.plist */,
+				EE543FD62BEAA20B006DB260 /* AviaShop */,
+				EE543FD52BEAA1F9006DB260 /* Garage */,
+				EE543FD42BEAA1F4006DB260 /* Game */,
 				EE543FC62BEA76BB006DB260 /* Avia_BlitzApp.swift */,
 				EE543FC82BEA76BB006DB260 /* ContentView.swift */,
 				EE543FCA2BEA76BE006DB260 /* Assets.xcassets */,
+				EE543FDF2BEAB200006DB260 /* Acme-Regular.ttf */,
 				EE543FCC2BEA76BE006DB260 /* Preview Content */,
 			);
 			path = "Avia Blitz";
@@ -65,6 +108,80 @@
 				EE543FCD2BEA76BE006DB260 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE543FD42BEAA1F4006DB260 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE5440062BEBF23C006DB260 /* Scene */,
+				EE543FD72BEAA21D006DB260 /* Bonus */,
+				EE543FD92BEAA234006DB260 /* GameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE543FD52BEAA1F9006DB260 /* Garage */ = {
+			isa = PBXGroup;
+			children = (
+				EE543FDB2BEAA254006DB260 /* GarageView.swift */,
+			);
+			path = Garage;
+			sourceTree = "<group>";
+		};
+		EE543FD62BEAA20B006DB260 /* AviaShop */ = {
+			isa = PBXGroup;
+			children = (
+				EE543FDD2BEAB1C0006DB260 /* GarageShopView.swift */,
+			);
+			path = AviaShop;
+			sourceTree = "<group>";
+		};
+		EE543FD72BEAA21D006DB260 /* Bonus */ = {
+			isa = PBXGroup;
+			children = (
+				EE5440042BEBDE8F006DB260 /* BonusGameView.swift */,
+			);
+			path = Bonus;
+			sourceTree = "<group>";
+		};
+		EE543FE22BEAC315006DB260 /* GameOptions */ = {
+			isa = PBXGroup;
+			children = (
+				EE543FE32BEAC323006DB260 /* PlayerData.swift */,
+				EE543FE52BEAC3C7006DB260 /* ShopData.swift */,
+				EE543FE72BEAC5FC006DB260 /* ShopItem.swift */,
+			);
+			path = GameOptions;
+			sourceTree = "<group>";
+		};
+		EE5440062BEBF23C006DB260 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EE5440072BEBF24C006DB260 /* PlaneGameScene.swift */,
+				EE54400E2BECDB58006DB260 /* BoosterFieldNode.swift */,
+				EE5440102BECDB61006DB260 /* GamePauseNode.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EE5440092BECD98A006DB260 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				EE54400A2BECD9A4006DB260 /* Explosion.sks */,
+				EE54400B2BECD9A4006DB260 /* Assets.xcassets */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		EE5440122BECF55C006DB260 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EE4E2B5B2BECF78C00C4AA77 /* bonus_menu_music.mp3 */,
+				EE4E2B5D2BECF79100C4AA77 /* bonus_menu_sound.mp3 */,
+				EE4E2B5F2BECF7A700C4AA77 /* loss_sound.mp3 */,
+				EE4E2B592BECF76C00C4AA77 /* music.mp3 */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +243,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE543FCE2BEA76BE006DB260 /* Preview Assets.xcassets in Resources */,
+				EE54400C2BECD9A4006DB260 /* Explosion.sks in Resources */,
+				EE4E2B5A2BECF76C00C4AA77 /* music.mp3 in Resources */,
+				EE543FE02BEAB200006DB260 /* Acme-Regular.ttf in Resources */,
 				EE543FCB2BEA76BE006DB260 /* Assets.xcassets in Resources */,
+				EE4E2B5C2BECF78C00C4AA77 /* bonus_menu_music.mp3 in Resources */,
+				EE54400D2BECD9A4006DB260 /* Assets.xcassets in Resources */,
+				EE4E2B602BECF7A700C4AA77 /* loss_sound.mp3 in Resources */,
+				EE4E2B5E2BECF79100C4AA77 /* bonus_menu_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +261,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE543FE62BEAC3C7006DB260 /* ShopData.swift in Sources */,
+				EE543FE42BEAC323006DB260 /* PlayerData.swift in Sources */,
+				EE543FE82BEAC5FC006DB260 /* ShopItem.swift in Sources */,
+				EE5440082BEBF24C006DB260 /* PlaneGameScene.swift in Sources */,
+				EE5440112BECDB61006DB260 /* GamePauseNode.swift in Sources */,
+				EE5440052BEBDE8F006DB260 /* BonusGameView.swift in Sources */,
 				EE543FC92BEA76BB006DB260 /* ContentView.swift in Sources */,
+				EE54400F2BECDB58006DB260 /* BoosterFieldNode.swift in Sources */,
+				EE543FDC2BEAA254006DB260 /* GarageView.swift in Sources */,
+				EE543FDA2BEAA234006DB260 /* GameView.swift in Sources */,
+				EE543FDE2BEAB1C0006DB260 /* GarageShopView.swift in Sources */,
 				EE543FC72BEA76BB006DB260 /* Avia_BlitzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +409,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Blitz-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +423,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Avia-Blitz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,11 +443,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Blitz-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +457,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Avia-Blitz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
